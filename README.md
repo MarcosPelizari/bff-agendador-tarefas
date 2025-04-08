@@ -12,6 +12,24 @@ O BFF Agendador de Tarefas é uma aplicação Java com Spring Boot que unifica a
 - **IntelliJ IDEA** (opcional, recomendado para desenvolvimento)
 - **Postman** (recomendado para testar os endpoints)
 
+## Dependências de Repositórios
+O BFF depende das seguintes APIs, que devem ser clonadas e configuradas antes de iniciar o projeto. Use os links abaixo para clonar cada repositório:
+
+- **API de Usuários**  
+  Gerencia autenticação e dados de usuários.  
+  ```bash
+  git clone https://github.com/MarcosPelizari/usuario.git
+
+- **API de Notificações**
+   Envia emails como notificações.
+  ```bash
+   git clone https://github.com/MarcosPelizari/notificacao.git
+
+- **API de Agendador de Tarefas**
+   Gerencia o agendamento e manipulação de tarefas.
+  ```bash
+   git clone https://github.com/MarcosPelizari/agendador-tarefas.git
+
 ## Instalação
 1. **Clone o Repositório**:
    ```bash
